@@ -31,15 +31,22 @@ public class MainActivity extends AppCompatActivity {
             }
         });
     }
+/**
+*This functiom is to validate the user id and password
+*@param userName Contains the value of user name
+*@param userPassword Conatains the value of the password
+*/
+
 
     private void validate(String userName,String userPassword){
         if((userName.equals("sbhat893@gmail.com"))&&(userPassword.equals("0000")))
         {
-            Intent intent=new Intent(this,quiz.class);
+            Intent intent=new Intent(this,quiz.class);//Go to quiz activity
             startActivity(intent);
         }
         else
         {
+            //When user entered wrong credentials..
             Toast.makeText(getApplicationContext(),"Wrong credentials",Toast.LENGTH_SHORT).show();
         }
 

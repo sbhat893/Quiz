@@ -1,0 +1,87 @@
+<resources>
+    <string name="app_name">Quiz</string>
+    <string name="q00">Who started \'Skill India\'?</string>
+    <string name="q10">Which is the world\'s fastest cruise missile?</string>
+    <string name="q20">Which is the longest river?</string>
+    <string name="q30">When UNO founded?</string>
+    <string name="q40">Where is London Bridge</string>
+    <string name="q0">Question 1</string>
+    <string name="q1">Question 2</string>
+    <string name="q2">Question 3</string>
+    <string name="q3">Question 4</string>
+    <string name="q4">Question 5</string>
+    <string name="r00">Mr.Siddaramayya</string>
+    <string name="r01">Mr.Narendra Modi</string>
+    <string name="r02">Mr.Amit Sha</string>
+    <string name="r03">Mr.Barak Obama</string>
+    <string name="r10">DF21</string>
+    <string name="r11">Agni 5</string>
+    <string name="r12">Brahmos</string>
+    <string name="r13">Seatom</string>
+    <string name="r20">The Nile</string>
+    <string name="r21">The Brahmaputra</string>
+    <string name="r22">The Amazon</string>
+    <string name="r23">The Ganga</string>
+    <string name="r30">1943</string>
+    <string name="r31">1944</string>
+    <string name="r32">1945</string>
+    <string name="r33">1946</string>
+    <string name="r40">USA</string>
+    <string name="r41">AUS</string>
+    <string name="r42">Russia</string>
+    <string name="r43">UK</string>
+    <string name="a0">Mr.Narendra Modi</string>
+    <string name="a1">Brahmos</string>
+    <string name="a2">The Nile</string>
+    <string name="a3">1945</string>
+    <string name="a4">UK</string>
+    <string-array name="qno">
+        <item>@string/q0</item>
+        <item>@string/q1</item>
+        <item>@string/q2</item>
+        <item>@string/q3</item>
+        <item>@string/q4</item>
+    </string-array>
+    <string-array name="qn">
+        <item>@string/q00</item>
+        <item>@string/q10</item>
+        <item>@string/q20</item>
+        <item>@string/q30</item>
+        <item>@string/q40</item>
+    </string-array>
+    <string-array name="ans">
+        <item>@string/a0</item>
+        <item>@string/a1</item>
+        <item>@string/a2</item>
+        <item>@string/a3</item>
+        <item>@string/a4</item>
+    </string-array>
+    <string-array name="r0">
+        <item>@string/r00</item>
+        <item>@string/r10</item>
+        <item>@string/r20</item>
+        <item>@string/r30</item>
+        <item>@string/r40</item>
+    </string-array>
+    <string-array name="r1">
+        <item>@string/r01</item>
+        <item>@string/r11</item>
+        <item>@string/r21</item>
+        <item>@string/r31</item>
+        <item>@string/r41</item>
+    </string-array>
+    <string-array name="r2">
+        <item>@string/r02</item>
+        <item>@string/r12</item>
+        <item>@string/r22</item>
+        <item>@string/r32</item>
+        <item>@string/r42</item>
+    </string-array>
+    <string-array name="r3">
+        <item>@string/r03</item>
+        <item>@string/r13</item>
+        <item>@string/r23</item>
+        <item>@string/r33</item>
+        <item>@string/r43</item>
+    </string-array>
+</resources>
